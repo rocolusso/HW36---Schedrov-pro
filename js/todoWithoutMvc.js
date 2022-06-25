@@ -1,3 +1,4 @@
+'use strict';
 void (function () {
   const createDivItem = (obj, selector) => {
     const divCol = document.createElement('div');
