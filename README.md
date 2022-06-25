@@ -1,1 +1,0 @@
-# HW36---Schedrov-pro
