@@ -24,7 +24,6 @@ const model = () => ({
     todoItemData.id = this.currentId;
     todoItemData.status = this.initStatus;
     dataToSave.push(todoItemData);
-    console.log(dataToSave);
 
     try {
       localStorage.setItem(this.dbName, JSON.stringify(dataToSave));
